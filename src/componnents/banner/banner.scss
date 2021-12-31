@@ -1,0 +1,56 @@
+.banner {
+  position: relative;
+  background: #121212;
+  .container {
+    .name {
+      color: #66902f;
+      text-align: left;
+      font-size: 40px;
+
+      margin-top: 14rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    .designation {
+      color: white;
+      text-align: left;
+      font-size: 60px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+    .specialization {
+      color: white;
+      text-align: left;
+      margin-top: 2rem;
+      font-size: 18px;
+    }
+
+    .dev-icons {
+      text-align: left;
+      margin-top: 2rem;
+      margin-bottom: 16rem;
+      display: flex;
+      div {
+        display: grid;
+        p {
+          color: white;
+          text-align: center;
+          margin-top: 10px;
+          font-size: 12px;
+        }
+        h6 {
+          color: #66902f;
+          font-size: 36px;
+          margin: 0px 28px;
+        }
+      }
+
+      svg {
+        font-size: 45px;
+        margin: 0px 18px;
+      }
+    }
+  }
+}

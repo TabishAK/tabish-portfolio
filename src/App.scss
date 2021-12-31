@@ -18,135 +18,15 @@ h5 {
 }
 .App {
   display: grid;
-  .banner {
-    position: relative;
-    background: #121212;
-    .container {
-      .name {
-        color: #66902f;
-        text-align: left;
-        font-size: 40px;
 
-        margin-top: 14rem;
-        font-weight: 600;
-        letter-spacing: 1px;
-      }
-
-      .designation {
-        color: white;
-        text-align: left;
-        font-size: 60px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        letter-spacing: 2px;
-      }
-      .specialization {
-        color: white;
-        text-align: left;
-        margin-top: 2rem;
-        font-size: 18px;
-      }
-
-      .dev-icons {
-        text-align: left;
-        margin-top: 2rem;
-        margin-bottom: 16rem;
-        display: flex;
-        div {
-          display: grid;
-          p {
-            color: white;
-            text-align: center;
-            margin-top: 10px;
-            font-size: 12px;
-          }
-          h6 {
-            color: #66902f;
-            font-size: 36px;
-            margin: 0px 28px;
-          }
-        }
-
-        svg {
-          font-size: 45px;
-          margin: 0px 18px;
-        }
-      }
-    }
-  }
-
-  .about {
+  .projects {
     background: #0b0c10;
     display: grid;
-    .i-design {
-      text-align: center;
-      margin-top: 5rem;
-      margin-bottom: 3rem;
-      font-size: 22px;
-      color: #66902f;
-    }
-    img {
-      width: 35%;
-    }
-
     h1 {
       color: white;
-      font-size: 40px;
+      font-size: 50px;
       font-weight: 600;
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-    }
-
-    .container {
-      .liitle-details {
-        background: #121212;
-        padding: 40px;
-        background: #121212;
-        h3 {
-          color: #66902f;
-        }
-        p {
-          color: white;
-          padding-right: 10rem;
-          padding-left: 10rem;
-          font-size: 18px;
-          margin-top: 2rem;
-        }
-      }
-
-      .row {
-        .col-xl-6 {
-          background: #121212;
-          border-radius: 8px;
-          border: 0.1px solid gray;
-          h1 {
-            font-size: 30px;
-            color: #66902f;
-            font-weight: 500;
-          }
-          p {
-            font-size: 18px;
-            padding-right: 60px;
-            padding-left: 60px;
-            color: white;
-          }
-          h3 {
-            color: #66902f;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-          }
-
-          ul {
-            margin-bottom: 2rem;
-            li {
-              list-style: inside;
-              color: white;
-              font-size: 18px;
-              text-align: center;
-            }
-          }
-        }
-      }
+      margin-top: 5rem;
     }
   }
 }

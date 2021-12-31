@@ -1,0 +1,14 @@
+button {
+  background: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid #66902f;
+  padding: 14px;
+  margin-top: 24px;
+  font-size: 16px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+button:hover {
+  border-color: #66902fb0;
+}
